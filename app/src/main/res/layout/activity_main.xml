@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonCamera"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/buttoncamera"
+        app:layout_constraintEnd_toEndOf="parent"
+        style="@style/Widget.AppCompat.Button.Colored"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewcamera"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/buttonCamera"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCamera" />
+
+    <Button
+        android:id="@+id/buttonContac"
+        android:layout_width="0dp"
+        style="@style/Widget.AppCompat.Button.Colored"
+
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:text="@string/buttoncontatc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewcamera" />
+
+    <TextView
+        android:id="@+id/textViewContac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/buttonContac"
+        app:layout_constraintTop_toBottomOf="@+id/buttonContac" />
+
+    <Button
+
+        style="@style/Widget.AppCompat.Button.Colored"
+
+
+        android:id="@+id/buttonAudio"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/buttonaudio"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewContac" />
+
+    <TextView
+        android:id="@+id/textViewAudio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAudio" />
+
+    <Button
+        android:id="@+id/buttonAll"
+        android:layout_width="0dp"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:text="@string/Buttontodos_permissios"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

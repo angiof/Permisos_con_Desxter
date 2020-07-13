@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Permisos con Desxter</string>
+
+
+    <string name="buttoncamera">camera permissions</string>
+
+    <string name="buttonaudio">Permisos del audio </string>
+
+    <string name="Buttontodos_permissios">Permite todo</string>
+
+    <string name="buttoncontatc">Permisos  contactos</string>
+
+
+    <string name="permisoOk">permiso ok</string>
+    <string name="Permiso_negado">permiso fallo</string>
+    <string name="Permiso_fueCompletamenteNegado">permiso nunca fue acpetado por el utente </string>
+
+
+
+
+
+
+</resources>
